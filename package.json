@@ -2,10 +2,10 @@
   "name": "u-develop-it",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
+    "test": "jest",  
+    "watch": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "mysql2": "^2.2.5"
   },
   "devDependencies": {
-    "jest": "^27.0.4"
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.7"
   }
 }
