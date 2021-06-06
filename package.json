@@ -2,7 +2,7 @@
   "name": "u-develop-it",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "",
   "scripts": {
     "test": "jest",  
     "watch": "nodemon"
@@ -20,7 +20,8 @@
   "homepage": "https://github.com/codenameabel/u-develop-it#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mysql2": "^2.2.5"
+    "mysql2": "^2.2.5",
+    "nodemon": "2.0.7"
   },
   "devDependencies": {
     "jest": "^27.0.4",
