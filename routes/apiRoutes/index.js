@@ -1,12 +1,14 @@
 const express = require('express'); 
 const router = express.Router(); 
 
-// Path for candidateRoutes.js
+// Route for candidateRoutes.js
 router.use(require('./candidateRoutes'));
 
-// Path for partyRoutes.js
+// Route for partyRoutes.js
 router.use(require('./partyRoutes'));
 
+// Route for voterRoutes.js 
+router.use(require('./voterRoutes'));
 
 
 module.exports = router;
