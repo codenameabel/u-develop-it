@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const db = require('../../db/connection');
 const inputCheck = require('../../utils/inputCheck');
-const { route } = require('./candidateRoutes');
 
 // GET all voters 
 router.get('/voters', (req, res) => {
